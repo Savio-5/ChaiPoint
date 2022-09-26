@@ -1,6 +1,6 @@
 package starcoffee;
 
-public class Beverage extends StarsCoffee{
+public class Beverage{
 	public Beverage() {
 		System.out.println("Serving Beverage");
 	}
