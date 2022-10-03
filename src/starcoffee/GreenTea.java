@@ -1,8 +1,10 @@
 package starcoffee;
 
 public class GreenTea extends Tea{
-	public GreenTea() {
-		System.out.println("GreenTea");
+	private String teaName;
+	
+	public GreenTea(String n) {
+		this.teaName = n;
 	}
 	
 	public GreenTea(Integer i){

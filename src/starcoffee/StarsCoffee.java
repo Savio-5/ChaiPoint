@@ -1,7 +1,9 @@
 package starcoffee;
 
 public class StarsCoffee {
-	Integer quantity;
+	private Integer quantity;
+//	private Integer volume;
+//	private String item;
 	
 	public Beverage getCoffee(Integer i) {
 		this.quantity = i;
@@ -16,5 +18,13 @@ public class StarsCoffee {
 		return b;
 		
 	}
+	
+//	public void getItemname() {
+//		this.itemname;
+//	}
+//	
+//	public void setItemname(String itemname) {
+//		this.item = itemname;
+//	}
 	
 }
